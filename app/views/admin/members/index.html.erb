@@ -1,0 +1,5 @@
+<h3 style="text-align:center;" >会員一覧</h3>
+<div class="member-index-admin">
+  <%= render "admin/members/member_index", members: @members %>
+</div>
+<%= paginate @members %>
